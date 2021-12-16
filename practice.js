@@ -44,6 +44,7 @@ console.log(totalAmount(50))
 
 function printNumbers () {
     // Push 10 'hello' strings into the array using a for loop, then return it
+    // need to update to add numbers in a vertical line
     let arr = []
   
     for (let i = 1; i <= 10; i++) {
