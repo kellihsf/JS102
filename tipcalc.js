@@ -1,11 +1,3 @@
-//Madlib: Write a madlib function, which is given a name and a subject. It will return(not print) a new string: (name)'s favorite subject in school is (subject).
-
-function madLib(name, subject) {
-    return (`${name}'s favorite subect in school is ${subject}`)
-}
-
-console.log(madLib("kelli", "art"));
-
 //Tip Calculator: Write a function tipAmount that is given the bill amount and the level of service (one of good, fair and poor) and returns the dollar amount for the tip. Based on: good -> 20% fair -> 15% bad -> 10%
 
 
@@ -39,17 +31,3 @@ function totalAmount(total, service) {
 console.log(totalAmount(100, "good"));
 console.log(totalAmount(40, "fair"));
 console.log(totalAmount(50))
-
-//Print Numbers Write a function printNumbers which is given a start number and an end number. It will print the numbers from one to the other, one per line.
-
-function printNumbers () {
-    // Push 10 'hello' strings into the array using a for loop, then return it
-    // need to update to add numbers in a vertical line
-    let arr = []
-  
-    for (let i = 1; i <= 10; i++) {
-      arr.push(i)
-  } 
-    return arr; 
-  }
-  console.log(printNumbers(1));
