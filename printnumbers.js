@@ -11,5 +11,10 @@ function printNumbers(start, end) {
 printNumbers(0, 2);
 
 //While loop version
+let count = 1;
+while (count <= 10) {
+    console.log(count);
+    count ++
+}
 
 
